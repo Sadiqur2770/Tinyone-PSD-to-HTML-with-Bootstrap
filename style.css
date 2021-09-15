@@ -1,0 +1,217 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+/* Menu part css start */
+.navbar-light .navbar-toggler {
+	color: transparent !important;
+	 border-color: transparent !important;
+}
+.ms-auto {
+	background: #fcdb00 !important;
+    text-align: center !important;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #010101;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 30px 40px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.bg-nav{
+    background: #fcdb00;
+}
+.navbar{
+    transition: 1s all ease;
+}
+/* Menu part css end */
+/* Slider section css start */
+#slider{
+    padding: 100px 0px 100px 0px;
+    background-color: #fcdb00;
+}
+.slider-text h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #010101;
+    padding: 100px 0px 15px 0px;
+}
+.slider-text h3{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #313841;
+    padding-right: 100px;
+    line-height: 34px;
+}
+.slider-text p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    padding: 20px 0px;
+    line-height: 28px;
+}
+.custom-icon{
+    font-size: 50px;
+    color: #010101;
+    margin: 0px 20px 0px 20px;
+}
+.slider-img img{
+    border-radius: 15px;
+    margin-top: 40px;
+}
+/* carousel */
+.carousel-indicators{
+    bottom: -70px;
+}
+.carousel-indicators .active {
+
+	opacity: 1;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	border-radius: 50%;
+}
+.carousel-indicators [data-bs-target] {
+	/* background-color: #ffffff; */
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	border-radius: 50%;
+}
+/* .carousel-indicators .active{
+    background-color: #010101;
+} */
+/* Slider section css end */
+/* Features section css start*/
+#feature{
+    padding: 70px 0px;
+}
+.feature-top h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #010101;
+    padding: 0px 0px 10px 0px;
+}
+.feature-top p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #313841;
+    padding: 0px 250px;
+    margin: 0;
+}
+/* feature-single-item */
+.feature-single-item{
+    padding-top: 80px;
+}
+.feature-single-item h4{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20;
+    color: #010101;
+}
+.feature-single-item p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16;
+    line-height: 28px;
+    color: #898989;
+    padding-right: 30px;
+}
+/* Features section css end */
+/* Footer section css start */
+#footer{
+    padding: 70px 0px;
+    background-color: #010101;
+}
+.footer-top h2{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fcdb00;
+    text-align: center;
+}
+.footer-top p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #898989;
+    padding: 20px 0px;
+}
+.custom-input{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #898989;
+    padding: 8px 20px;
+    border-radius: 3px !important;
+}
+.btn-outline-custom{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #010101;
+    background-color: #fcdb00;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 3px !important;
+}
+.footer-icon{
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+}
+.custom-footer-icon{
+    font-size: 45px;
+    color: #fcdb00;
+    margin: 0px 15px;
+}
+/* footer bottom text */
+.footer-bottom-text{
+    padding: 40px 0px 15px 0px;
+}
+.footer-bottom-text{
+    color: #ffffff;
+}
+.footer-bottom-text p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #898989;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+.footer-bottom-text ul li{
+    text-align: center;
+}
+.footer-bottom-text ul li a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #898989;
+}
+/* Footer section css end */
+
+/* 
+    font-family: 'PT Sans', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+*/
